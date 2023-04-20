@@ -1,0 +1,15 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind CSS by Arif Almas",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "Arif Almas",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
